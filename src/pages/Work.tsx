@@ -1,6 +1,7 @@
 import React from "react";
 import PageLayout from "../Layouts/PageLayout";
 import { sections } from "../constants/work";
+import gettingStarted from "../assets/work/getting-started.png";
 
 const Work = () => {
   return (
@@ -15,7 +16,7 @@ const Work = () => {
           using React and Tailwind.
         </p>
 
-        <img src="/work/getting-started.png" alt="getting started" />
+        <img src={gettingStarted} alt="getting started" />
 
         <ul className="flex flex-col flex-grow gap-5">
           {sections.map((section: any, sectionIndex) => {
