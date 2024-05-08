@@ -33,11 +33,9 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={`/general/${icon.name}.png`}
-                alt={icon.name}
-                className="w-10 h-10"
-              />
+              <article
+                className={`bg-center bg-cover ${icon.image} w-10 h-10`}
+              ></article>
             </a>
           );
         })}

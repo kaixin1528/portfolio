@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <PageLayout>
       <section className="flex items-stretch">
-        {Object.entries(projects).map((keyVal) => {
+        {Object.entries(projects).map((keyVal: any) => {
           const project = projects[path];
 
           return (
@@ -20,19 +20,22 @@ const Work = () => {
                     <ul className="flex items-center gap-2">
                       {project.tools.map((tool: string, idx: number) => {
                         return (
-                          <li key={idx} className="">
-                            <img
-                              src={`/projects/${tool}`}
-                              alt={tool}
-                              className="w-10 h-10"
-                            />
+                          <li key={idx}>
+                            <article
+                              className={`bg-center bg-cover ${tool} px-10 w-10 h-10`}
+                            ></article>
                           </li>
                         );
                       })}
                     </ul>
                   </article>
                   <p>{project.description}</p>
-                  <img src={`/projects/${project.screenshot}`} alt="" />
+
+                  <article
+                    className={`bg-center ${
+                      keyVal[1].name !== "Designo" ? "bg-cover" : ""
+                    } ${keyVal[1].screenshot} h-[30rem]`}
+                  ></article>
 
                   <article className="flex items-center justify-between gap-5 py-5 w-full">
                     {project.name !== "Trello Clone" && (
@@ -62,7 +65,7 @@ const Work = () => {
                 >
                   {Array.from(keyVal[1].name).map((char, index) => (
                     <span key={index} className="mx-auto">
-                      {char}
+                      {String(char)}
                     </span>
                   ))}
                 </a>

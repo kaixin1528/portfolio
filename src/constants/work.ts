@@ -4,10 +4,10 @@ export const sections = [
     section_description:
       "Visualize and search cloud nodes in the form of graph",
     section_images: [
-      "knowledge_graph.png",
-      "info-panel.png",
-      "evolution.png",
-      "diff.png",
+      "bg-knowledge-graph",
+      "bg-info-panel",
+      "bg-evolution",
+      "bg-diff",
     ],
     features: [
       {
@@ -30,7 +30,7 @@ export const sections = [
   {
     section_name: "Summaries",
     section_description: "Visualize data through simple charts and tables",
-    section_images: ["vr-risk.png", "incident_response.png"],
+    section_images: ["bg-vr-risk", "bg-incident-response"],
     features: [
       {
         feature_name: "Charts",
@@ -48,7 +48,7 @@ export const sections = [
     section_name: "Investigation",
     section_description:
       "Record graph queries and alert analysis in the format of evidence",
-    section_images: ["investigation_landing.png", "diary.png"],
+    section_images: ["bg-investigation-landing", "bg-diary"],
     features: [
       {
         feature_name: "Diary",
@@ -67,9 +67,9 @@ export const sections = [
     section_description:
       "Visualize coverage of documents and upload questionnaire.",
     section_images: [
-      "coverage.png",
-      "framework-detail.png",
-      "respond_to_questions.png",
+      "bg-coverage",
+      "bg-framework-detail",
+      "bg-respond-to-questions",
     ],
     features: [
       {

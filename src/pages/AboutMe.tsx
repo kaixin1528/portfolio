@@ -1,6 +1,5 @@
 import React from "react";
 import PageLayout from "../Layouts/PageLayout";
-import whoAmI from "../assets/about-me/who-am-i.png";
 
 const Work = () => {
   return (
@@ -16,7 +15,7 @@ const Work = () => {
           <span className="uppercase text-base font-medium">WHO AM I</span>
 
           <article className="grid">
-            <img src={whoAmI} alt="who am i" />
+            <article className="bg-center bg-cover bg-who-am-i h-[30rem]"></article>
             <caption className="justify-self-end py-2 uppercase text-xs">
               Behind is the paranomic view of Mexico City from the balcony of
               Chapultepec Castle

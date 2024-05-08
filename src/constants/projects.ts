@@ -1,22 +1,13 @@
-const html = "html-logo.svg";
-const css = "css-logo.png";
-const javascript = "javascript-logo.png";
-const react = "react-logo.svg";
-const next = "next-logo.svg";
-const tailwind = "tailwind-logo.svg";
-const typescript = "typescript-logo.svg";
-const framerMotion = "framer-motion.jpeg";
+const react = "bg-react-logo";
+const next = "bg-next-logo";
+const tailwind = "bg-tailwind-logo";
+const typescript = "bg-typescript-logo";
+const framerMotion = "bg-framer-motion-logo";
 
-export const tools = [
-  { logo: html, name: "HTML" },
-  { logo: css, name: "CSS" },
-  { logo: javascript, name: "Javascript" },
-  { logo: react, name: "ReactJS" },
-  { logo: next, name: "NextJS" },
-  { logo: tailwind, name: "Tailwind" },
-  { logo: typescript, name: "Typescript" },
-  { logo: framerMotion, name: "Framer Motion" },
-];
+const audioPhile = "bg-audiophile-homepage";
+const feedback = "bg-feedback-homepage";
+const trello = "bg-trello-clone-homepage";
+const designo = "bg-designo-homepage";
 
 export const projects = {
   "/projects/audiophile/": {
@@ -26,7 +17,7 @@ export const projects = {
     demo: "https://kaixin-audiophile.netlify.app",
     code: "https://github.com/kaixin1528/audiophile-e-commerce",
     tools: [react, tailwind, framerMotion],
-    screenshot: "audiophile-homepage.png",
+    screenshot: audioPhile,
   },
 
   "/projects/feedback/": {
@@ -36,7 +27,7 @@ export const projects = {
     demo: "https://kaixin-product-feedback.netlify.app",
     code: "https://github.com/kaixin1528/product-feedback",
     tools: [next, tailwind, typescript, framerMotion],
-    screenshot: "feedback-homepage.png",
+    screenshot: feedback,
   },
   "/projects/trello/": {
     name: "Trello Clone",
@@ -44,7 +35,7 @@ export const projects = {
       "Trello Clone is a responsive CRUD website. Using Next's built-in API, a user can add a new board and within each board add/remove/edit new lists and cards, card descriptions, and comments.",
     code: "https://github.com/kaixin1528/trello-clone",
     tools: [next, tailwind, typescript],
-    screenshot: "trello-clone.png",
+    screenshot: trello,
   },
   "/projects/designo/": {
     name: "Designo",
@@ -53,6 +44,6 @@ export const projects = {
     demo: "https://kaixin-designo.netlify.app",
     code: "https://github.com/kaixin1528/designo",
     tools: [react, tailwind, framerMotion],
-    screenshot: "designo-homepage.png",
+    screenshot: designo,
   },
 };

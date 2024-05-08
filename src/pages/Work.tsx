@@ -1,7 +1,6 @@
 import React from "react";
 import PageLayout from "../Layouts/PageLayout";
 import { sections } from "../constants/work";
-import gettingStarted from "../assets/work/getting-started.png";
 
 const Work = () => {
   return (
@@ -16,8 +15,6 @@ const Work = () => {
           using React and Tailwind.
         </p>
 
-        <img src={gettingStarted} alt="getting started" />
-
         <ul className="flex flex-col flex-grow gap-5">
           {sections.map((section: any, sectionIndex) => {
             return (
@@ -31,7 +28,9 @@ const Work = () => {
                   </p>
                   <article className="grid gap-5 pt-5">
                     {section.section_images?.map((image: string) => (
-                      <img src={`/work/${image}`} alt={image} />
+                      <article
+                        className={`bg-center bg-cover ${image} h-[15rem]`}
+                      ></article>
                     ))}
                   </article>
                 </article>
