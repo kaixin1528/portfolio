@@ -4,7 +4,7 @@
 Kaixin Huang
 
 ### Resume
-[Resume]([https://github.com/kaixin1528/portfolio_website/blob/main/resume.pdf](https://github.com/kaixin1528/portfolio/blob/main/Resume.pdf))
+[Resume](https://github.com/kaixin1528/portfolio/blob/main/Resume.pdf)
 
 ### Portfolio
 [Live Demo](https://kaixin-huang-portfolio.netlify.app)
