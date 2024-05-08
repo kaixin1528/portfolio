@@ -8,7 +8,7 @@ Kaixin Huang
 
 - [Link to Resume](https://github.com/kaixin1528/portfolio_website/blob/main/resume.pdf)
 
-### Links
+### Projects
 
 - Portfolio Website: [Live Demo](https://kaixin-portfolio.netlify.app)
   - Audiophile: [Live Demo](https://kaixin-audiophile.netlify.app) | [GitHub Code](https://github.com/kaixin1528/audiophile-e-commerce)
