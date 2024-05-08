@@ -1,12 +1,11 @@
-import React from "react";
-import { headerIcons, headerTabs } from "src/constants/general";
+import { headerIcons, headerTabs } from "../constants/general";
 
 const Header = () => {
   const path = window.location.pathname;
 
   return (
     <aside className="sticky top-0 flex items-center justify-between gap-10 px-7 py-6 w-full text-2xl tracking-widest font-bold bg-white">
-      <a href="/work">KAIXIN </a>
+      <span>KAIXIN</span>
       <article className="flex items-center gap-20">
         {headerTabs.map((tab) => {
           return (

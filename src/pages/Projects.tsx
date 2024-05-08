@@ -1,6 +1,6 @@
 import React from "react";
-import PageLayout from "src/Layouts/PageLayout";
-import { projects } from "src/constants/projects";
+import PageLayout from "../Layouts/PageLayout";
+import { projects } from "../constants/projects";
 
 const Work = () => {
   const path = window.location.pathname;

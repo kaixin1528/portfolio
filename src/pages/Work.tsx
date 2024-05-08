@@ -1,6 +1,6 @@
 import React from "react";
-import PageLayout from "src/Layouts/PageLayout";
-import { sections } from "src/constants/work";
+import PageLayout from "../Layouts/PageLayout";
+import { sections } from "../constants/work";
 
 const Work = () => {
   return (

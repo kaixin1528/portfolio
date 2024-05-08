@@ -1,5 +1,5 @@
 import React from "react";
-import PageLayout from "src/Layouts/PageLayout";
+import PageLayout from "../Layouts/PageLayout";
 
 const Work = () => {
   return (

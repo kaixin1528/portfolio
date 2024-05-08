@@ -8,7 +8,7 @@ function App() {
   return (
     <section className="relative flex flex-col flex-grow w-full h-full font-noto-sans">
       <Routes>
-        <Route path="/" element={<Navigate replace to="/work" />} />
+        <Route path="/" element={<Navigate replace to="/work/" />} />
 
         <Route path="/work" element={<Work />} />
 
