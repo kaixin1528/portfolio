@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio
 
 ### Resume 
 - [Link to Resume](https://github.com/kaixin1528/portfolio_website/blob/main/resume.pdf)
