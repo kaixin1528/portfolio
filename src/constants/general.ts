@@ -17,7 +17,7 @@ export const headerIcons = [
   {
     name: "github",
     image: "bg-github",
-    link: "https://github.com/kaixin1528",
+    link: "https://github.com/kaixin1528/portfolio",
   },
   {
     name: "linkedin",
