@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34445bd3.css",
+    "main.js": "/static/js/main.aa09256c.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/who-am-i.png": "/static/media/who-am-i.809375e63f7d1df8e82a.png",
+    "static/media/investigation-landing.png": "/static/media/investigation-landing.4b2b4e19766de01e4230.png",
+    "static/media/framework-detail.png": "/static/media/framework-detail.28c5afcdf698e765acdd.png",
+    "static/media/diary.png": "/static/media/diary.9759c7981fb79062dde2.png",
+    "static/media/evolution.png": "/static/media/evolution.efeb5638e5f56cffe8bd.png",
+    "static/media/knowledge-graph.png": "/static/media/knowledge-graph.3cb5ad1a96f4b086e8e4.png",
+    "static/media/info-panel.png": "/static/media/info-panel.9b5eab306f987586a74b.png",
+    "static/media/vr-risk.png": "/static/media/vr-risk.d054cd1ed38c88cf04ad.png",
+    "static/media/incident-response.png": "/static/media/incident-response.d49b72e8a843ec7a8b1a.png",
+    "static/media/diff.png": "/static/media/diff.e6ca673b759ad6822018.png",
+    "static/media/trello-clone-homepage.png": "/static/media/trello-clone-homepage.d9d5b50849216ef1bb69.png",
+    "static/media/respond-to-questions.png": "/static/media/respond-to-questions.4823f3086e487fde8352.png",
+    "static/media/audiophile-homepage.png": "/static/media/audiophile-homepage.e70b4fa499b82e9c610b.png",
+    "static/media/coverage.png": "/static/media/coverage.6776f1f66fb20adb60b7.png",
+    "static/media/designo-homepage.png": "/static/media/designo-homepage.219ab9551d89f8eda3a9.png",
+    "static/media/feedback-homepage.png": "/static/media/feedback-homepage.d62e1194fdc90134d8cc.png",
+    "static/media/linkedin.png": "/static/media/linkedin.68ac41e1459436bfd38f.png",
+    "static/media/framer-motion.jpeg": "/static/media/framer-motion.c50727757a5c5e48de83.jpeg",
+    "static/media/react-logo.svg": "/static/media/react-logo.3adc4d153dba4c791b00.svg",
+    "static/media/next-logo.svg": "/static/media/next-logo.2e296d8e8f5b961cea37.svg",
+    "static/media/typescript-logo.svg": "/static/media/typescript-logo.e0cf5672fbdcdadedf56.svg",
+    "static/media/tailwind-logo.svg": "/static/media/tailwind-logo.fa33f4e8e025e5e800a2.svg",
+    "index.html": "/index.html",
+    "main.34445bd3.css.map": "/static/css/main.34445bd3.css.map",
+    "main.aa09256c.js.map": "/static/js/main.aa09256c.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34445bd3.css",
+    "static/js/main.aa09256c.js"
+  ]
+}
